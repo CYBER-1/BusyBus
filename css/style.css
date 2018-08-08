@@ -1,0 +1,367 @@
+body {   
+  font-family         : "SFProText-Medium", Helvetica, Arial, serif;
+}
+
+.washingtonstate {
+    width               : 100%;
+    min-width           : 375px;
+    height              : 100vh;
+    min-height          : 779px;
+    position            : relative;
+    overflow            : hidden;
+    margin              : 0px;
+    background-color    : rgba(255, 255, 255, 1.0);
+  }
+
+  .washingtonstate .map {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 261px;
+    margin              : 0;
+    position            : absolute;
+    left                : 0px;
+    top                 : 0px;
+    width               : 375px;
+  }
+
+  .washingtonstate .statusbar-background {
+    background-color    : rgba(215, 215, 215, 0.6);
+    height              : 23px;
+    position            : absolute;
+    left                : 0px;
+    top                 : 0px;
+    width               : 375px;
+  }
+  .washingtonstate .statusbar {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 15px;
+    margin              : 0;
+    position            : absolute;
+    left                : 6px;
+    top                 : 3.5px;
+    width               : 364px;
+  }
+  .washingtonstate .hamburgermenu {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 17px;
+    margin              : 0;
+    position            : absolute;
+    left                : 20px;
+    top                 : 42px;
+    width               : 24px;
+  }
+
+  .washingtonstate .walking-guy {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 14px;
+    margin              : 0;
+    position            : absolute;
+    left                : 271px;
+    top                 : 69px;
+    width               : 14px;
+  }
+  .washingtonstate .walking-route {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 47px;
+    margin              : 0;
+    position            : absolute;
+    left                : 155px;
+    top                 : 78px;
+    width               : 117px;
+  }
+  .washingtonstate .bus-west {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 15px;
+    margin              : 0;
+    position            : absolute;
+    left                : 11px;
+    top                 : 122px;
+    width               : 20px;
+    -ms-transform       : rotate(0 deg); /* IE 9 */
+    -webkit-transform   : rotate(0 deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0 deg);
+  }
+  .washingtonstate .bus-north {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 9;
+    margin              : 0;
+    position            : absolute;
+    left                : 181px;
+    top                 : 102px;
+    width               : 14px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .washingtonstate .bus-south {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 18px;
+    margin              : 0;
+    position            : absolute;
+    left                : 180px;
+    top                 : 198px;
+    width               : 23px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .washingtonstate .busstation-flag {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 22px;
+    margin              : 0;
+    position            : absolute;
+    left                : 158px;
+    top                 : 100px;
+    width               : 12px;
+  }
+  .washingtonstate .busdropdown {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 12px;
+    margin              : 0;
+    position            : absolute;
+    left                : 166px;
+    top                 : 109px;
+    width               : 14px;
+  }
+  .washingtonstate .search {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 34px;
+    margin              : 0;
+    position            : absolute;
+    left                : 325px;
+    top                 : 34px;
+    width               : 34px;
+  }
+  .washingtonstate .menu-background {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color    : #68C5F8;
+    height              : 518px;
+    margin              : 0;
+    position            : absolute;
+    left                : 0px;
+    top                 : 261px;
+    width               : 375px;
+  }
+
+  .washingtonstate .itembackground {
+    background-color    : #DDEEF7;
+    height              : 45px;
+    margin              : 0;
+    position            : absolute;
+    left                : 0px;
+    top                 : 293px;
+    width               : 375px;
+  }
+  .washingtonstate .bus-station-name {
+    background-color    : rgba(255,255,255,0.0);
+    height              : auto;
+    margin              : 0;
+    position            : absolute;
+    left                : 96px;
+    top                 : 303px;
+    width               : auto;
+    font-family         : "SFProText-Medium", Helvetica, Arial, serif;
+    font-size           : 20.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : center;
+    letter-spacing      : -0.48px;
+    line-height         : 24.0px;
+  }
+  .washingtonstate .bus-56-menu-background {
+    background-color    : rgb(233,240,245);
+    height              : 51px;
+    margin              : 0;
+    position            : absolute;
+    left                : 0px;
+    top                 : 338px;
+    width               : 375px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.19)
+  }
+  .washingtonstate .bus-113-menu-background {
+    background-color    : rgb(233, 240, 245);
+    height              : 56px;
+    margin              : 0;
+    position            : absolute;
+    left                : 0px;
+    top                 : 576px;
+    width               : 375px;
+  }
+
+ .colapseroute {
+  height              : 11px;
+  margin              : 0;
+  width               : 18px;
+  top                 : 20.0px;
+  position            : absolute;
+  left                : 345px;
+  }
+
+  .washingtonstate .expandbus56 {
+      background-color    : rgba(255,255,255,0.0);
+      margin              : 0;
+      height              : 26px;
+      width               : 4px;
+      top                 : 403px;
+      left                : 353px;
+      position            : absolute;
+  }
+
+  .bus56content {
+    font-weight: bold;
+    font-size: 19px;
+    text-align: left;
+    margin-top: 127.5px;
+    position: absolute;
+    text-indent: 110px;
+    line-height: 3.1;
+  }
+
+  .b56a {
+    border-bottom: 1px solid rgb(204, 203, 203);
+    background-color: white;
+    width: 375px;
+  }
+
+  .b56b {
+    border-bottom: 1px solid rgb(204, 203, 203);
+    background-color: white;
+    width: 375px;
+  }
+
+  .b56c {
+    border: 2px solid black dashed;
+    background-color: white;
+    width: 375px;
+  }
+
+  .washingtonstate .bus-7-menu-background {
+    background-color    : rgb(233, 240, 245);
+    height              : 56px;
+    margin              : 0;
+    position            : absolute;
+    left                : 0px;
+    top                 : 624px;
+    width               : 383px;
+    border-top: 1px solid rgb(204, 203, 203);
+  }
+  .washingtonstate .bus-80-menu-background {
+    background-color    : rgb(233, 240, 245);
+    height              : 56px;
+    margin              : 0;
+    position            : absolute;
+    left                : 0px;
+    top                 : 672px;
+    width               : 383px;
+    border-top: 1px solid rgb(204, 203, 203);
+  }
+  .washingtonstate .bus-19-menu-background {
+    background-color    : rgb(233, 240, 245);
+    height              : 48px;
+    margin              : 0;
+    position            : absolute;
+    left                : 0px;
+    top                 : 720px;
+    width               : 383px;
+    border-top: 1px solid rgb(204, 203, 203);
+  }
+  
+.washingtonstate .buses {
+
+  position: absolute;
+  font-weight: bold;
+  background-color    : rgba(255,255,255,0.0);
+  height              : auto;
+  margin              : 0;
+  position            : absolute;
+  left                : 20px;
+  top                 : 17px;
+  width               : auto;
+  font-family         : "SFProText-Medium", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.48px;
+  line-height         : 23.5px;
+  }
+  .washingtonstate .times {
+    background-color    : rgba(255,255,255,0.0);
+    height              : auto;
+    margin              : 0;
+    position            : absolute;
+    left                : 120px;
+    top                 : 16px;
+    width               : auto;
+    font-family         : "SFProText-Medium", Helvetica, Arial, serif;
+    font-size           : 17.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : center;
+    line-height         : 20.0px;
+  }
+
+  .menu-bus-1 .buses {
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-top: -2px;
+  }
+
+.menu-bus-1 .times {
+  font-weight: bold;
+}
+
+  .menu-bus-2 .buses {
+    margin-top: -1px;
+  }
+
+  .menu-bus-3 .buses {
+    margin-left: 10px;
+    margin-top: -2px;
+  }
+
+  .menu-bus-4 .buses {
+    margin-left: 5px;
+    margin-top: -2px;
+  }
+  .menu-bus-5 .buses {
+    margin-left: 5.5px;
+    margin-top: -2px;
+  }
+
+  .washingtonstate .stops {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 137px;
+    margin              : 0;
+    position            : absolute;
+    left                : -23px;
+    top                 : 410px;
+    width               : 235px;
+  }
+  .washingtonstate .direction {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 419px;
+    margin              : 0;
+    position            : absolute;
+    left                : 70px;
+    top                 : 351px;
+    width               : 42px;
+  }
+  .washingtonstate .bigdropdown {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 21px;
+    margin              : 0;
+    position            : absolute;
+    left                : 182px;
+    top                 : 268px;
+    width               : 12px;
+  }
+
+  .washingtonstate .bus-east {
+    background-color    : rgba(255,255,255,0.0);
+    height              : 45px;
+    margin              : 0;
+    position            : absolute;
+    left                : 258px;
+    top                 : 105px;
+    width               : 43px;
+  }
+
+
